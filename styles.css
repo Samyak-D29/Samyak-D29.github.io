@@ -1,3 +1,4 @@
+/* General Styling */
 html {
     scroll-behavior: smooth;
 }
@@ -10,6 +11,7 @@ body {
     padding-top: 60px; /* Adjust this value to match the height of the header */
 }
 
+/* Header Styling */
 header {
     display: flex;
     justify-content: center;
@@ -63,6 +65,7 @@ header {
     background-color: #800080;
 }
 
+/* Home Section Styling */
 .home-section {
     background-color: black;
     padding: 60px 20px; /* Adjust padding for better mobile view */
@@ -144,6 +147,7 @@ header {
     border-radius: 10px;
 }
 
+/* About Section Styling */
 .about-section {
     background-color: rgb(0, 0, 0);
     background-size: cover;
@@ -217,6 +221,7 @@ header {
     background-color: #800080;
 }
 
+/* Projects Section Styling */
 .projects-section {
     background-color: white;
     padding: 50px 20px; /* Adjust padding for better mobile view */
@@ -271,6 +276,7 @@ header {
     font-weight: normal;
 }
 
+/* Contact Section Styling */
 .contact-section {
     padding: 50px 20px; /* Adjust padding for better mobile view */
     text-align: center;
@@ -278,13 +284,13 @@ header {
     background-color: silver;
 }
 
-contact-section h2 {
+.contact-section h2 {
     font-size: 2rem; /* Adjust font size for mobile */
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-contact-section p {
+.contact-section p {
     font-size: 1rem; /* Adjust font size for mobile */
     font-weight: normal;
     margin-bottom: 40px;
@@ -299,55 +305,4 @@ form {
     margin: 0 auto;
     max-width: 600px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-label {
-    font-size: 1rem; /* Adjust font size for mobile */
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: left;
-    width: 100%;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-}
-
-textarea {
-    resize: vertical;
-    height: 150px;
-}
-
-.submit-btn {
-    padding: 0.75rem 1.5rem;
-    background-color: blueviolet;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem; /* Adjust font size for mobile */
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    align-self: flex-end;
-}
-
-.submit-btn:hover {
-    background-color: #800080;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-content {
-    display: flex
-}
+    box-shadow: 0 4
