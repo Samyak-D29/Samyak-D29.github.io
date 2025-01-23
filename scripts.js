@@ -38,9 +38,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize Typed.js for the tagline
     var typed = new Typed('#typed-text', {
-        strings: ["HEY, I'M SAMYAK DAHIWALE"],
+        strings: ["Hey, I'm Samyak.."],
         typeSpeed: 50, // Adjust typing speed if needed
-        showCursor: false, // Hide the cursor if desired
+        showCursor: true, // Hide the cursor if desired
         startDelay: 500, // Start typing after a delay (in milliseconds)
         onComplete: function() {
             // Show the sub tagline with wave effect after the main tagline completes
