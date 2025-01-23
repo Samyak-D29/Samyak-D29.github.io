@@ -75,7 +75,7 @@ header {
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .home-right {
@@ -110,7 +110,7 @@ header {
 .social-icons img {
     width: 30px;
     height: 30px;
-    filter: invert(100%);
+    filter: invert(200%);
 }
 
 .projects-btn {
@@ -183,6 +183,7 @@ header {
     margin-bottom: 10px;
     border-radius: 4px;
     flex-wrap: wrap;
+    width: 225px;
 }
 
 .skill-box img {
